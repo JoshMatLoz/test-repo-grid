@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+      <title>App De Pekitos</title>
+      <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <h2>AppDePeeks</h2>
+    <main>  
+      <h3>Imagenes de Peeks</h3>
+      <p>Haz click para ver mas <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">imagenes de peekitos</a></p>
+      <a href="https://www.freecodecamp.org/espanol/" rel="noopener noreferrer"> 
+        <img src="img/peek01.jpg" alt="Perro relajao relax">
+      </a>
+      <br>
+      <img src="img/peek02.jpg" alt="Otro perro relajao relax">
+      
+      <hr>
+      <h3>Listas de Peekitos</h3>
+      <div class="gustos-pekitos">
+        <p class="fuente">Cosas que los peekes <em>aman</em></p>
+        <ul class="fuente ">
+          <li>Oler anos de otros perros</li>
+          <li><s>Comer basura</s></li>
+          <li>Balactearse en la tierra y rascarla para hacer hoyos</li>
+          <li>hacer jatz jatz jatz con galletas</li>
+          </ul>  
+        </ul> 
+      </div>
+        <img src="img/peek4.jpeg" alt="Perro oliendo anos">
+      <div class="disgustos-pekitos">
+        <p class="fuente">Cosas que los peekito <strong>odian</strong></p>
+        <ol class="fuente">
+          <li>Gatos asquerosos</li>
+          <li>Gente Fea</li>
+          <li>Los viejitos</li>
+        </ol>
+      </div>
+      <div class="relajaorelax">
+        <img src="img/peek03.jpeg" alt="Otro perro relajao relax">
+      </div>
+      <hr>
+      <div class="formulario">
+        <form action="/enviarcaca">
+            <!-- Botones de radio -->
+            <label for="interior"><input id="interior" type="radio" name="interior-exterior" checked value="interior">Interior</label><br>
+            <label for="exterior"><input id="exterior" type="radio"name="interior-exterior" value="exterior">Exterior</label> 
+          <br>
+          <br>
+          <!-- Casillas de verificacion -->
+          <label for="cagon"><input id="cagon" type="checkbox" name="personalidad" value="cagon">Cagon</label><br>
+          <label for="flojo"><input id="flojo" type="checkbox" name="personalidad" value="flojo">Flojo</label><br>
+          <label for="menso"><input id="menso" type="checkbox" name="personalidad" value="menso">Menso</label><br><br>
+          <!-- Texto y boton enviar -->
+          <input type="text" placeholder="Foto de tu peekito" required>
+          <button type="submit">Enviar</button> 
+        </form>
+      </div>
+    </main>
+      <footer><p><small>Creado por Josué Emmanuel Mata Lozano</small></p></footer>
+  </body>
+</html>
